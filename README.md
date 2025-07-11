@@ -43,7 +43,8 @@ conda env create --file environment.yml
 conda activate graphgs
 ```
 
-Please install [COLMAP](https://colmap.github.io/install.html) manually according to the official guide.
+Please install [COLMAP](https://colmap.github.io/install.html) manually according to the official guide.  
+**Note:** We recommend installing a version of COLMAP earlier than 3.9.1, as newer versions may lead to degraded results (the cause is currently unknown).
 
 Refer to [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) for additional environment dependencies.
 
@@ -72,7 +73,7 @@ path/to/your/dataset
 ## Sample Dataset
 
 We provide a demo dataset from Waymo:  
-**[Download Waymo Sample](https://drive.google.com/file/d/1ynEcKUfa1_RH-z7XDjilGBoHdkIzQ-M-/view?usp=sharing)**
+**[Download Waymo Sample](https://drive.google.com/file/d/1h_GTsj3nFSWAdblQmC_4WQuNJ1jmlme-/view?usp=sharing)**
 
 
 ---
